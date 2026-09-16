@@ -1,0 +1,36 @@
+# Development dependencies and generated test output
+node_modules/
+playwright-report/
+test-results/
+coverage/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local data, exports, credentials and machine configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.csv
+*.json
+!package.json
+!package-lock.json
+*.jsonl
+*.parquet
+*.sqlite*
+data/
+datasets/
+images/
+exports/
+outputs/
+work/
+_neshane/
+local/
